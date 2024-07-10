@@ -1,0 +1,34 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3307/uniclub
+    username: root
+    password: 154623123Vy
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+     hibernate:
+       ddl-auto: none
+
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+
+key:
+  token:
+    jwt: Z1/l8TqPQMq1h5F/VmL4693gX+12s8S6mlX1Rdtw1sY=
+
+upload:
+  file:
+    path: C:\\Users\\Windows10_Base_MeLap\\Desktop\\Upload
+
+redis:
+  port: 6378
+  url: localhost
+
+logging:
+  level:
+    root: info
+  file:
+    name: C:\Users\Windows10_Base_MeLap\Desktop\log\devlog.log
